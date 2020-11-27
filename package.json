@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --ci --color --watch --verbose --no-cache.",
-    "test:ci": "jest --colors"
+    "test:ci": "jest --ci --color --watch --verbose --no-cache."
   },
   "jest": {
     "preset": "ts-jest",
