@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - run: npm install && npm i jest &&  npm run test:ci a
+    - run: npm install && npm i jest &&  npm run test:ci 
